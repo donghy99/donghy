@@ -1,0 +1,29 @@
+@media (max-width: 576px) {
+  #target,
+  #personal-info {
+    padding: 15px !important;
+  }
+
+  #nav-bar nav {
+    text-align: start;
+  }
+
+  #footer {
+    justify-items: center;
+  }
+
+  .nav-item:first-of-type {
+    border-left: none;
+  }
+
+  .nav-item:nth-of-type(2) {
+    border-left: none;
+  }
+
+  .nav-item:nth-of-type(4) {
+    border-right: none;
+  }
+  .nav-item:last-of-type {
+    border-right: none;
+  }
+}
